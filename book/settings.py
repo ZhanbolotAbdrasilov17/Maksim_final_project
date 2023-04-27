@@ -105,6 +105,9 @@ USE_I18N = True
 
 USE_TZ = True
 
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
 
 LANGUAGES = [
     ('ru', _('Russian')),
