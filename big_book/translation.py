@@ -5,3 +5,8 @@ from .models import *
 @register(News)
 class NewsTranslation(TranslationOptions):
     fields = ('title', 'desc')
+
+
+@register(Reviews)
+class ReviewsTranslation(TranslationOptions):
+    fields = ('title', 'desc')
