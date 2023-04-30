@@ -8,3 +8,4 @@ admin.site.register(News)
 
 
 admin.site.register(Reviews)
+admin.site.register(Studies)

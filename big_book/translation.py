@@ -10,3 +10,8 @@ class NewsTranslation(TranslationOptions):
 @register(Reviews)
 class ReviewsTranslation(TranslationOptions):
     fields = ('title', 'desc')
+
+
+@register(Studies)
+class StudiesTranslation(TranslationOptions):
+    fields = ('desc', )
