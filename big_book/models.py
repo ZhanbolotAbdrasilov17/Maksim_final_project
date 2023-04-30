@@ -38,3 +38,17 @@ class Studies(models.Model):
     class Meta:
         verbose_name_plural = 'Исследования'
         verbose_name = 'Исследование'
+
+
+class Mail(models.Model):
+    name = models.CharField(max_length=100, verbose_name='Имя')
+    phone = models.CharField(max_length=100, verbose_name='Телефон')
+    email = models.CharField(max_length=100, verbose_name='Почта')
+    text = models.TextField(verbose_name='Текст')
+
+    def __str__(self):
+        return f'{self.name}'
+
+    class Meta:
+        verbose_name_plural = 'Обращения клиентов'
+        verbose_name = 'Обращение клиентов'

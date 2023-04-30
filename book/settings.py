@@ -135,3 +135,9 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'oriyental.treyd@mail.ru'
+EMAIL_HOST_PASSWORD = 'Lj5Af3Cvvg4XzprPEF8k'
+EMAIL_USE_TLS = True

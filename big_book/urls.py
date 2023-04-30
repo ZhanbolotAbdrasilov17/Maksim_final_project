@@ -7,6 +7,7 @@ urlpatterns = [
     path('about/', about, name='about'),
     path('what_we/', what_we, name='what_we'),
     path('blog/', blog, name='blog'),
+    path('mail/create/', MailCreateView.as_view(), name='mail_create'),
     path('contact/', contact, name='contact'),
 ]
 
