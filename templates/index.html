@@ -64,10 +64,10 @@
                         <a class="nav-link" href="{% url 'what_we' %}">{% trans 'Деятельность' %}</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="{% url 'blog' %}">Blog</a>
+                        <a class="nav-link" href="{% url 'blog' %}">{% trans 'Новости' %}</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+                        <a class="nav-link" href="{% url 'contact' %}">{% trans 'Контакты' %}</a>
                      </li>
                   </ul>
 
@@ -92,10 +92,10 @@
                         <div class="row">
                            <div class="col-md-6">
                               <div class="banner_taital_main">
-                                 <h1 class="banner_taital">We Provide Law Practice</h1>
-                                 <p class="banner_text">Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem</p>
-                                 <div class="readmore_btn active"><a href="#">Read More</a></div>
-                                 <div class="started_bt"><a href="#">Contact Us</a></div>
+                                 <h1 class="banner_taital">{% trans 'Предоставляем юридическую практику' %}</h1>
+                                 <p class="banner_text">{% trans 'Цицерон, написанный в 45 г. до н.э. Эта книга представляет собой трактат по теории этики, очень популярный в эпоху Возрождения.' %}</p>
+                                 <div class="readmore_btn active"><a href="#">{% trans 'Подробнее' %}</a></div>
+                                 <div class="started_bt"><a href="#">{% trans 'Связаться' %}</a></div>
                               </div>
                            </div>
                            <div class="col-md-6">

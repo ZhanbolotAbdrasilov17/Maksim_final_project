@@ -1,7 +1,7 @@
 {% extends 'index.html' %}
 {% load static %}
 {%  block page %}
-
+{% load i18n %}
 
 <div class="container">
          <div class="box_section">
@@ -12,8 +12,8 @@
                         <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
                      </div>
                      <div class="box_right">
-                        <p class="book_text">Book At</p>
-                        <h4 class="appoinment_text">Appoinment</h4>
+                        <p class="book_text">{% trans 'Бронь' %}</p>
+                        <h4 class="appoinment_text">{% trans 'Встреча' %}</h4>
                      </div>
                   </div>
                </div>
@@ -23,8 +23,8 @@
                         <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
                      </div>
                      <div class="box_right">
-                        <p class="book_text active">Get Free</p>
-                        <h4 class="appoinment_text active"> Evalution</h4>
+                        <p class="book_text active">{% trans 'Бесплатно' %}</p>
+                        <h4 class="appoinment_text active">{% trans 'Оценка' %}</h4>
                      </div>
                   </div>
                </div>
@@ -34,7 +34,7 @@
                         <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
                      </div>
                      <div class="box_right">
-                        <p class="book_text">Pay Invoice</p>
+                        <p class="book_text">{% trans 'Оплата счёта' %}</p>
                         <h4 class="appoinment_text">Online</h4>
                      </div>
                   </div>
@@ -48,7 +48,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="studies_taital">SERVICE OFFERINGS</h1>
+                  <h1 class="studies_taital">{% trans 'СЕРВИСНЫЕ ПРЕДЛОЖЕНИЯ' %}</h1>
                </div>
             </div>
          </div>
@@ -64,8 +64,8 @@
                                     <img src="{% static 'images/icon-1.png' %}" class="image_1">
                                     <img src="{% static 'images/icon-4.png' %}" class="image_2">
                                  </div>
-                                 <h3 class="corporate_text">Corporate Law</h3>
-                                 <p class="chunks_text">chunks as necessary, making this the first true generator on the Internet. It uses a dictionary </p>
+                                 <h3 class="corporate_text">{% trans 'Корпоративное право' %}</h3>
+                                 <p class="chunks_text">{% trans 'куски по мере необходимости, что делает его первым настоящим генератором в Интернете. Он использует словарь' %}</p>
                                  <div class="readmore_button"><a href="#">Read More</a></div>
                               </div>
                            </div>
@@ -75,7 +75,7 @@
                                     <img src="{% static 'images/icon-5.png' %}" class="image_1">
                                     <img src="{% static 'images/icon-5.png' %}" class="image_2">
                                  </div>
-                                 <h3 class="corporate_text">Employments Law</h3>
+                                 <h3 class="corporate_text">{% trans 'Трудовое право' %}</h3>
                                  <p class="chunks_text">chunks as necessary, making this the first true generator on the Internet. It uses a dictionary </p>
                                  <div class="readmore_button active"><a href="#">Read More</a></div>
                               </div>
@@ -86,7 +86,7 @@
                                     <img src="{% static 'images/icon-3.png' %}" class="image_1">
                                     <img src="{% static 'images/icon-6.png' %}" class="image_2">
                                  </div>
-                                 <h3 class="corporate_text">International Law</h3>
+                                 <h3 class="corporate_text">{% trans 'Международное право' %}</h3>
                                  <p class="chunks_text">chunks as necessary, making this the first true generator on the Internet. It uses a dictionary </p>
                                  <div class="readmore_button"><a href="#">Read More</a></div>
                               </div>
@@ -188,7 +188,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="studies_taital">Recent Case Studies</h1>
+                  <h1 class="studies_taital">{% trans 'Недавние тематические исследования' %}</h1>
                </div>
             </div>
             <div class="studies_section_2">
@@ -218,7 +218,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_text_main">
-                     <h1 class="about_taital">About Us</h1>
+                     <h1 class="about_taital">{% trans 'О нас' %}</h1>
                      <p class="about_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
                      <div class="readmore_bt"><a href="#">Read More</a></div>
                   </div>
@@ -232,7 +232,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="customer_taital">SATISFIED CLIENT Says</h1>
+                  <h1 class="customer_taital">{% trans 'ДОВОЛЬНЫЙ КЛИЕНТ Говорит' %}</h1>
                </div>
             </div>
          </div>
@@ -274,7 +274,7 @@
       <!-- news section start -->
       <div class="news_section layout_padding">
          <div class="container">
-            <h1 class="news_taital">Recent News</h1>
+            <h1 class="news_taital">{% trans 'Последние новости' %}</h1>
             {% for n in news %}
             <div class="news_section_2">
                <div class="news_box">
@@ -307,7 +307,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">Free Consulation</h1>
+                  <h1 class="contact_taital">{% trans 'Бесплатная консультация' %}</h1>
                </div>
             </div>
             <div class="contact_section_2">

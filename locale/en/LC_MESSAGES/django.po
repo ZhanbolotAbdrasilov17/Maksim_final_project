@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-30 08:08+0000\n"
+"POT-Creation-Date: 2023-05-03 19:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,14 +26,104 @@ msgstr ""
 msgid "English"
 msgstr ""
 
+#: templates/home.html:15
+msgid "Бронь"
+msgstr "Book at"
+
+#: templates/home.html:16
+msgid "Встреча"
+msgstr "Appoinment"
+
+#: templates/home.html:26
+msgid "Бесплатно"
+msgstr "Get free"
+
+#: templates/home.html:27
+msgid "Оценка"
+msgstr "Evalution"
+
+#: templates/home.html:37
+msgid "Оплата счёта"
+msgstr "Pay Invoice"
+
+#: templates/home.html:51
+msgid "СЕРВИСНЫЕ ПРЕДЛОЖЕНИЯ"
+msgstr "SERVICE OFFERINGS"
+
+#: templates/home.html:67
+msgid "Корпоративное право"
+msgstr "Corporate Law"
+
+#: templates/home.html:68
+msgid ""
+"куски по мере необходимости, что делает его первым настоящим генератором в "
+"Интернете. Он использует словарь"
+msgstr ""
+"chunks as necessary, making this the first true generator on the Internet. "
+"It uses a dictionary"
+
+#: templates/home.html:78
+msgid "Трудовое право"
+msgstr "Employments Law"
+
+#: templates/home.html:89
+#, fuzzy
+#| msgid "Корпоративное право"
+msgid "Международное право"
+msgstr "Corporate Law"
+
+#: templates/home.html:191
+msgid "Недавние тематические исследования"
+msgstr "Recent case studies"
+
+#: templates/home.html:221 templates/index.html:61
+msgid "О нас"
+msgstr "About us"
+
+#: templates/home.html:235
+msgid "ДОВОЛЬНЫЙ КЛИЕНТ Говорит"
+msgstr "SATISFIED CUSTOMER Speaks"
+
+#: templates/home.html:277
+msgid "Последние новости"
+msgstr "Recent news"
+
+#: templates/home.html:310
+msgid "Бесплатная консультация"
+msgstr "Free consultation"
+
 #: templates/index.html:58
 msgid "Главная"
 msgstr "Main"
 
-#: templates/index.html:61
-msgid "О нас"
-msgstr "About us"
-
 #: templates/index.html:64
 msgid "Деятельность"
 msgstr "What we do"
+
+#: templates/index.html:67
+msgid "Новости"
+msgstr "Blog"
+
+#: templates/index.html:70
+msgid "Контакты"
+msgstr "Contacts"
+
+#: templates/index.html:95
+msgid "Предоставляем юридическую практику"
+msgstr ""
+
+#: templates/index.html:96
+msgid ""
+"Цицерон, написанный в 45 г. до н.э. Эта книга представляет собой трактат по "
+"теории этики, очень популярный в эпоху Возрождения."
+msgstr ""
+"Cicero, written in 45 BC. This book is a treatise on the theory of ethics, "
+"very popular during the Renaissance."
+
+#: templates/index.html:97
+msgid "Подробнее"
+msgstr "Read more"
+
+#: templates/index.html:98
+msgid "Связаться"
+msgstr "Contact us"

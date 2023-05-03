@@ -14,7 +14,7 @@ def home(request):
     reviews = Reviews.objects.all()
     studies = Studies.objects.all()
     context = {'news': news, 'reviews': reviews, 'studies': studies}
-    return render(request, 'home.html', )
+    return render(request, 'home.html', context)
 
 
 def about(request):
